@@ -8,5 +8,5 @@ class Solution(object):
         if s[left]!=s[right]:
             return False
         return self.check(s,left+1,right-1)
-sol=Solution()
-print(sol.isPalindrome("A man, a plan, a canal: Panama"))   
+solution = Solution()
+print(solution.isPalindrome("A man, a plan, a canal: Panama"))  
