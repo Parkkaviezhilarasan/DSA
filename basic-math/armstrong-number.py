@@ -1,5 +1,5 @@
 class solution:
-    def armsrrong(self,n):
+    def armstrong(self,n):
         ans=0
         p=len(str(n))
         org=n
@@ -9,4 +9,4 @@ class solution:
             n=n//10
         return ans==org
 sol=solution()  
-print(sol.armsrrong(153))
+print(sol.armstrong(153))
