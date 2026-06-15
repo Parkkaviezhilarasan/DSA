@@ -8,6 +8,8 @@ def bubble(arr):
 arr=[64, 34, 25, 12, 22, 11, 90]
 print(bubble(arr))
 
+
+#with recursion
 def bubble_1(arr, n):
     if n==1:
         return arr
